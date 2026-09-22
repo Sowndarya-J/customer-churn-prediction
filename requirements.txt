@@ -1,0 +1,48 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+streamlit# Customer Churn Prediction & Risk Scoring
+
+## Project Overview
+
+Customer Churn Prediction & Risk Scoring is a machine learning project that predicts whether a customer is likely to leave a service.
+
+The project uses customer information such as tenure, monthly charges, contract type, internet service, payment method, and support-related information to predict churn probability.
+
+The predicted probability is converted into a simple risk level:
+
+* **Low Risk:** 0–30%
+* **Medium Risk:** 31–70%
+* **High Risk:** 71–100%
+
+The project also includes SQL-based customer and churn analysis and a Streamlit web application for making predictions.
+
+## Key Features
+
+* Customer churn prediction using Machine Learning
+* Data cleaning and preprocessing
+* Categorical feature encoding
+* Numerical feature scaling
+* Logistic Regression model training
+* Random Forest model comparison
+* Model evaluation using Accuracy, Precision, Recall, F1-score, and ROC-AUC
+* Confusion matrix analysis
+* Churn probability prediction
+* Customer risk-level classification
+* SQL-based customer and churn analysis
+* Interactive Streamlit prediction application
+
+## Technology Stack
+
+* **Programming:** Python
+* **Data Processing:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn
+* **Model:** Logistic Regression
+* **Model Comparison:** Random Forest
+* **Database:** SQLite
+* **SQL:** SQLite SQL
+* **Web Application:** Streamlit
+* **Model Saving:** Joblib
+* **Visualization:** Matplotlib

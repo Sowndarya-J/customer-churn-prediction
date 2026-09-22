@@ -1,0 +1,22 @@
+Model Comparison
+----------------
+
+Logistic Regression
+Accuracy : 80.70%
+Precision: 66.04%
+Recall   : 56.15%
+F1 Score : 60.69%
+ROC-AUC  : 84.23%
+
+Random Forest
+Accuracy : 78.50%
+Precision: 62.03%
+Recall   : 48.93%
+F1 Score : 54.71%
+ROC-AUC  : 82.26%
+
+Final Model Selection
+---------------------
+Logistic Regression was selected for the current project version
+because it achieved better results than Random Forest on the
+evaluated test set across the reported metrics.
